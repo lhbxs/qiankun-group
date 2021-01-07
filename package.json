@@ -8,7 +8,7 @@
   "license": "1",
   "private": true,
   "scripts": {
-    "clone:all": "bash ./scripts/clone-all.sh",
+    "clone": "bash ./scripts/clone-all.sh",
     "install": "npm-run-all --serial install:*",
     "install:main": "cd qiankun-main && yarn",
     "install:sub-1": "cd qiankun-sub-app-1 && yarn",
